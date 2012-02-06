@@ -1,0 +1,20 @@
+clicknodes
+
+Create nodes for map.gis of Robocup Rescue Simulation with sketch.
+
+Need:
+	RCRS System
+
+Usage:
+$ jython clicknodes.py
+- input path to image
+- click points
+- take screenshot(recommended)
+- close window
+- map.gml will be created
+$ cd rescue-1.0a-2011(directory of robocup rescue simulation server)
+$ ant gml-editor
+- open map.gml
+- create edges and areas
+$ ant scenario-editor
+
